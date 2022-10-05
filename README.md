@@ -1,27 +1,49 @@
-# README
+# Productora de Eventos
 
-Productora de Eventos
-Aplicación para la administración de grupos y eventos Se pueden crear, borrar y actualizar tanto los Grupos como los Eventos
+_Aplicación para la administración de grupos y eventos_
+_Se pueden crear, borrar y actualizar tanto los Grupos como los Eventos_
 
-Para bajar el Proyecto en formato ZIP🚀
-Bajar el proyecto, haciendo Click en el boton Download ZIP para bajar el archivo Este aparece luego de hacer click en el boton CODE parte superior derecha
+## Para bajar el Proyecto en formato ZIP🚀
 
-Instalación 🔧
-Abrir un terminal he ir a la carpeta recien creada
+_Bajar el proyecto, haciendo Click en el boton_
+_***Download ZIP*** para bajar el archivo_
+_Este aparece luego de hacer click en el boton ***CODE*** parte superior derecha_
 
+### Instalación 🔧
+
+_Abrir un terminal he ir a la carpeta recien creada_
+
+```
 cd productora_de_eventos
-ejecutar el siguiente comando
+```
 
+_ejecutar el siguiente comando_
+
+```
 bundle install
-Crear la base de datos
+```
+_Crear la base de datos_
 
+```
 rails db:create
-Realizar las migraciones
+```
 
+_Realizar las migraciones_
+
+```
 rails db:migrate
-Subir el servidor PUMA
+```
 
+_Subir el servidor PUMA_
+
+```
 rails s
-Colocar la dirección, en el navegador
+```
+_Colocar la dirección, en el navegador_
 
+```
 https://localhost:3000
+```
+
+
+
