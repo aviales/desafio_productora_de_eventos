@@ -1,26 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Productora de Eventos
+Aplicación para la administración de grupos y eventos Se pueden crear, borrar y actualizar tanto los Grupos como los Eventos
 
-Things you may want to cover:
+Para bajar el Proyecto en formato ZIP🚀
+Bajar el proyecto, haciendo Click en el boton Download ZIP para bajar el archivo Este aparece luego de hacer click en el boton CODE parte superior derecha
 
-* Ruby version
+Instalación 🔧
+Abrir un terminal he ir a la carpeta recien creada
 
-2.7
+cd productora_de_eventos
+ejecutar el siguiente comando
 
-* System dependencies
+bundle install
+Crear la base de datos
 
-* Configuration
+rails db:create
+Realizar las migraciones
 
-* Database creation
+rails db:migrate
+Subir el servidor PUMA
 
-* Database initialization
+rails s
+Colocar la dirección, en el navegador
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://localhost:3000
